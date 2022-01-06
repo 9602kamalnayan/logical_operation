@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&family=Vujahday+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.whole{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #92889b;
+}
+h1{
+    font-family: 'Shizuru', cursive;
+
+color: rgb(228, 238, 240);
+margin-bottom: 59px;
+font-size: 37px;
+}
+.input{
+    display: flex;
+    height: 30%;
+}
+.user1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 34px;
+}
+.user2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 34px;
+}
+.answer{
+    display: flex;
+flex-direction: column;
+margin-bottom: 47px;
+pointer-events: none;  
+}
+label{
+    font-family: 'Shadows Into Light', cursive;
+    margin-bottom: 20px;
+    text-align: center;
+    color: lightblue;
+    font-size: 2rem;
+}
+input{
+    height: 5vh;
+background: antiquewhite;
+width: 31vw;
+font-weight: bold;
+font-size: 37px;
+outline: none;
+border: none;
+text-align: center;
+border-radius: 13px;
+}
+.btn{
+    height: 20%;
+margin-top: 14px;
+width: 100%;
+display: flex;
+justify-content: center;
+}
+button{
+    /* ont-family: 'Arvo', serif; */
+cursor: pointer;
+height: 52%;
+width: 28%;
+background: #a8f0cc;
+color: #f6f6f6;
+font-weight: bold;
+font-size: 43px;
+margin-left: 14px;
+border-radius: 90px;
+outline: none;
+border: none;
+transition: 1.5s ease-in-out all;
+}
+button:hover{
+    background: #a01923;
+    color: #ecd4d4;
+}
+span{
+    color: red;
+}
+footer{
+    color: lightgray;
+/* width: 100%; */
+height: 7%;
+position: absolute;
+bottom: 1px;
+font-size: 28px;
+}
+
